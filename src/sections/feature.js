@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Features of the Z-Wing',
+    title: 'Features of the Z-Wing',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'This is what we are made of.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Get in Contact to Try It Out',
+    title: 'Get in Contact to Try It Out',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Reach out for samples to give it a try!',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Learn about our Story',
+    title: 'Our Story',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Learn where the idea came from and how we got here.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'What People are Saying',
+    title: 'What People are Saying',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'See what real professionals and users have to say about our product!',
   },
 ];
 
@@ -49,7 +49,7 @@ export default function Feature() {
      <Container>
        <SectionHeader
         slogan="Innovative Orthotics"
-        title="Affortable Custom Orthotics"
+        title="Approachable Custom Orthotics"
        />
        <Grid sx={styles.grid}>
          {data.map((item) => (

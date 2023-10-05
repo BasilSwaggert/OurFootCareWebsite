@@ -11,16 +11,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Orthotics
+            Our Footcare Project
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out our website to learn more about the revolutionary Z-Wing! If you have any questions, this is the place for answers!
+            Check out our website to learn more about the revolutionary Our Arch Pad! If you have any questions, this is the place for answers!
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="secondary">Explore</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt='banner'/>
-          <Text>This part displays an image of the product</Text>
+          
 
         </Box>
       </Container>
@@ -47,6 +47,7 @@ const styles = {
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom left',
       backgroundSize: '36%',
+      backgroundColor: '#D3D3D3',
     },
     '&::after': {
       position: 'absolute',

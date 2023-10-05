@@ -13,24 +13,24 @@ import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  subTitle: 'How To Use',
+  title: 'Video Walkthrough of How to Use the Z-Wing',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Instructions',
+      title: 'Step by Step Walkthrough Video',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'We will show you exactly how to use the Z-Wing in this approachable step-by-step video.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Contact',
+      title: 'Reach Out',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Please reach out if anything is unclear, we would be happy to help.',
     },
   ],
 };

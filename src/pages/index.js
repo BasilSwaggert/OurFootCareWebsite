@@ -5,7 +5,7 @@ import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from '../sections/banner';
-import KeyFeature from '../sections/key-feature';
+import WhatsTheBuzz from '../sections/whats-the-buzz';
 import ServiceSection from '../sections/service-section';
 import Feature from '../sections/feature';
 import CoreFeature from '../sections/core-feature';
@@ -20,7 +20,7 @@ export default function IndexPage() {
         <Layout>
           <SEO title="NextJS Landing Page" />
           <Banner />
-          <KeyFeature />
+          <WhatsTheBuzz />
           <ServiceSection />
           <Feature />
           <CoreFeature />

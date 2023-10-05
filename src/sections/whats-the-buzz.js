@@ -3,41 +3,41 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import Performance from 'assets/key-feature/performance.svg';
-import Partnership from 'assets/key-feature/partnership.svg';
-import Subscription from 'assets/key-feature/subscription.svg';
-import Support from 'assets/key-feature/support.svg';
+// import Performance from 'assets/whats-the-buzz/performance.svg';
+// import Partnership from 'assets/whats-the-buzz/partnership.svg';
+// import Subscription from 'assets/whats-the-buzz/subscription.svg';
+// import Support from 'assets/whats-the-buzz/support.svg';
 
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    // imgSrc: Performance,
+    altText: 'Features of the Z-Wing',
+    title: 'Features of the Z-Wing',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'The Z-Wing helps the your arch',
   },
   {
     id: 2,
-    imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    // imgSrc: Partnership,
+    altText: 'Get in Contact to try it out',
+    title: 'Get in Contact to try it out',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Reach out to us at OurFootCare@gmail.com',
   },
   {
     id: 3,
-    imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    // imgSrc: Subscription,
+    altText: 'Learn about our Story',
+    title: 'Learn about our Story',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We want to help people. That is why we have created this.',
   },
   {
     id: 4,
-    imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    // imgSrc: Support,
+    altText: 'See what people have to say',
+    title: 'What people are Saying',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
