@@ -15,7 +15,7 @@ export default function Logo({ src, ...rest }) {
       {...rest}
     >
 
-      <Image src={src} alt="Our Foot Care Logo"/>
+      {/* <Image src={src} alt="Our Foot Care Logo"/> */}
     </Link>
   );
 }

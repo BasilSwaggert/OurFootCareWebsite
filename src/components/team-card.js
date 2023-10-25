@@ -8,6 +8,8 @@ export default function TeamCard({ src, altText, title, designation, social }) {
   );
 }
 
+//THIS SECTION IS NOT CURRENTLY IN USE, IMPLEMENTATION POSSIBLE DOWN THE LINE FOR SELLING SERVICES OR PRODUCTS.
+
 const styles = {
   card: {
     display: 'flex',

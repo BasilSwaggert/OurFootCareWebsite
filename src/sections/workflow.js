@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'First Step',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'First Step.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Second Step',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Second Step.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Third Step',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Third Step.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Fourth Step',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Fourth Step.',
   },
 ];
 
@@ -39,7 +39,7 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="WHAT'S THE BUZZ ABOUT THE Z-WING"
+          slogan="HOW DOES IT WORK?: Workflow Section"
           title="Meet the in-home custom orthotic revolution"
           isWhite={true}
         />
@@ -72,7 +72,7 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: 'primary',
+    backgroundColor: 'red',
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
